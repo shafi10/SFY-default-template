@@ -1,0 +1,19 @@
+.content__margin_top{
+    margin-top: 20px;
+}
+
+.content__margin_bottom{
+    margin-bottom: 20px;
+}
+
+.center__align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table__heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
