@@ -1,3 +1,27 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-scopes = "write_products, read_customers"
+client_id = "4a8105f24e04b6b1e217541b65cb7b16"
+name = "app-testing-bs23"
+application_url = "https://played-roland-flash-buzz.trycloudflare.com"
+embedded = true
+handle = "app-testing-bs23"
+
+[webhooks]
+api_version = "2024-07"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,read_themes,write_products,write_themes"
+
+[auth]
+redirect_urls = [
+  "https://played-roland-flash-buzz.trycloudflare.com/auth/callback",
+  "https://played-roland-flash-buzz.trycloudflare.com/auth/shopify/callback",
+  "https://played-roland-flash-buzz.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true

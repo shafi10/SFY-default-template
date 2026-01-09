@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@shopify/app": "3.46.0",
-    "@shopify/cli": "3.46.0"
+    "@shopify/cli": "3.84.1"
   },
   "author": "bs830",
   "private": true,
