@@ -1,4 +1,4 @@
-import { LATEST_API_VERSION, ApiVersion } from "@shopify/shopify-api";
+import { ApiVersion } from "@shopify/shopify-api";
 import { shopifyApp } from "@shopify/shopify-app-express";
 import { SQLiteSessionStorage } from "@shopify/shopify-app-session-storage-sqlite";
 import { restResources } from "@shopify/shopify-api/rest/admin/2024-10";
@@ -10,7 +10,7 @@ const DB_PATH: string = `${process.cwd()}/database.sqlite`;
 
 const shopify = shopifyApp({
   api: {
-    apiVersion: LATEST_API_VERSION,
+    apiVersion: ApiVersion.January26,
     restResources,
     billing: undefined, // or replace with billingConfig above to enable example billing
   },

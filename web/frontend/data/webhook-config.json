@@ -1,0 +1,4 @@
+{
+  "webhookSecret": "whsec_courier23_abc123xyz789def456ghi012jkl345mno678pqr901stu234",
+  "callbackUrl": "https://your-app-domain.com/api/webhooks/courier-status"
+}
